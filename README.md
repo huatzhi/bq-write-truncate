@@ -13,8 +13,8 @@ Test doing write truncate with the edited dataframe provided by streamlit
 
 1. Clone the repository:
 ```bash
-git clone {{ git_path }}
-cd invoice-generator
+git clone https://github.com/huatzhi/bq-write-truncate.git
+cd bq-write-truncate
 ```
 
 2. Install dependencies using Poetry:
