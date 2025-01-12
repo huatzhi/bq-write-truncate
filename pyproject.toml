@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "streamlit bq"
+version = "0.1.0"
+description = "A test to connect bq from streamlit, read and update bq table through dataframe"
+authors = ["Huat Zhi <huatzhi@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.31.0"
+pandas = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.0"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
